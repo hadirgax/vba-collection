@@ -5,8 +5,9 @@ This repository contents my personal collection of the VBA code that I've used i
 ## MsExcel VBA
 #### Cell percentage variation controls
 This code autofits the position of control forms and increase/decrease the value of a percentage value.
-[<img src="https://github.com/hadirga/vba-collection/blob/master/MsExcel/cell_percentage_variation_controls/img01.png" width="75px;"/>]()
-[<img src="https://raw.githubusercontent.com/hadirga/vba-collection/master/MsExcel/cell_percentage_variation_controls/img01.png?token=AFIUNEXPJGBS6V3NRTJ4O5TABN524" width="75px;"/>]()
+
+[<img src="https://github.com/hadirga/vba-collection/blob/master/MsExcel/cell_percentage_variation_controls/img01.png" width="275px;"/>](#)
+
 
 # msOtlook_VBA
 VBA code for outlook tasks

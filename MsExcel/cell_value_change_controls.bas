@@ -1,6 +1,7 @@
 Sub changePercentage()
-
-Application.EnableEvents = False
+'
+' Get cell reference of the shape position and change the cell value.
+'
 Dim n As String: n = ActiveSheet.Shapes(Application.Caller).Name
 Dim S As Shape: Set S = ActiveSheet.Shapes(n)
 Dim C As Range: Set C = Cells(S.TopLeftCell.Row, S.TopLeftCell.Column)
@@ -18,9 +19,5 @@ ElseIf InStr(1, n, "Minus") Then
     S.Left = C.Left + C.Width * 0.1
     S.Top = C.Top
 End If
-  
-'ThisWorkbook.RefreshAll
-Call updateAllPvt("tree")
-Application.EnableEvents = True
 
 End Sub
